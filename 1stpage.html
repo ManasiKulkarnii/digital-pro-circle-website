@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align:center;
+  text-decoration: none;
+  margin: 4px 3px;
+  border-radius: 60%;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+    	font color: #000000;
+    	font-size: 20px;
+    	font: Geotica Four Open;
+        margin-bottom: 0;
+      border-radius: 0;
+      background-color: #909090;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+    	font-size: 20px;
+    	font: Geotica Four Open;
+      background-color: #909090 ;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 80%; /* Set width to 100% */
+      margin: auto;
+      min-height:60px;
+      max-height: 300px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+   .navbar-nav a{
+  color: #f1f1f1 !important;
+}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" >
+      <div class="nav navbar-nav navbar-right" >
+        <li class="active"><a href="1stpage.html">Home</a></li>
+        <li><a href="newvid.html">Videos</a></li>
+        <li><a href="servicepage.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+     
+      <li>
+    <form class="navbar-form navbar-center" role="search">
+    <div class="form-group">
+        <input type="text" class="form-control"  placeholder="Search here">
+    </div>
+    <button type="submit" class="btn btn-default" color="#909090">Submit</button>
+</form>
+</li>
+ </div>
+      <div class="nav navbar-nav navbar-left">
+        <li><img src="logo.jpg" width="100" height="100" class="img-circle"></li>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <!-- Wrapper for slides -->
+   
+        <img src="home.jpg" alt="Image" width="5000" height="2236" class="img-responsive">      </div>
+<div class="item">
+  <div class="carousel-caption">
+  
+</div>      
+  </div>
+    </div>
+
+    <!-- Left and right controls -->
+</div>
+  
+<div class="container text-center">    
+  <h3>Who We Are</h3><br>
+  <p>Welcome to Digital Circle Pro, a digital marketing agency based in Clapham, London and Spain. Our honest and transparent digital marketing work speaks for itself. We deliver a personal, passionate & tailored service to each and every one of our clients, big or small, based in UK or abroad. We strongly believe that there’s no merit in a ‘one-size-fits-all’ approach to SEO,PPC, Social Media or Website Development. Our digital marketing methods are innovative and always anticipate the intent of your customers and search engines.If you want clear, honest and tangible results online with the opportunity to learn how they’re achieved then get in touch now to see how we can help.</p>
+ <br><br>
+  <div class="row">
+    <div class="col-sm-4">
+    	<a href="servicepage.html">
+      <img src="Home Page 2.jpg" class="img-responsive" style="width:100%" alt="Image">
+  </a>
+      <p>know more about our services</p>
+    </div>
+    <div class="col-sm-4"> 
+      <a href="newvid.html">
+      <img src="Home Page 1.jpg" class="img-responsive" style="width:95%" alt="Image">
+      </a>
+      <p> See Videos to explore more</p>    
+    </div>
+    <div class="col-sm-4">
+      <div class="well">
+       <p>Explore more about our Digital Marketing Company</p>
+      </div>
+      <div class="well">
+       <p>Boost your Business visibility with us</p>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid">
+	<div class="row">
+		<div class="col-sm-4">
+		<h3>Our Services</h3>
+			<li> Social media platform</li>
+			<li> Website development</li>
+			<li> Pay per click</li>
+			<li> Search engine optimization</li>
+	</div>
+
+	<div class="col-sm-4">
+		<h3> Our Project</h3>
+		<li> Project 1</li>
+		<li> Project 2</li>
+		<li> Project 3</li>
+	</div>
+
+<div class="col-sm-4">
+	<h3>Contact Here</h3>
+	<li><i class="fa fa-phone" style="font-size:24px"></i> 9999 8888 </li>
+	<li>abc@xxx.com</li>
+
+</div>
+</div>
+<br><br>
+<div class="container-fluid text-center">
+<p style="text-align:center;">
+Social Media Platform :
+
+</p>
+  <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+
+<a href="#" class="fa fa-instagram"></a>
+</p>
+</div>
+</footer>
+
+</body>
+</html>

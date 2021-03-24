@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      
+      background-color: #f1f1f1;
+      
+   width: 300px;
+  position: relative;
+  right: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+    }
+    
+  
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: all;
+        padding: 10px;
+       
+      }
+      .row.content {height:all;} 
+    }
+    .fa {
+  
+   padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align:center;
+  text-decoration: none;
+  margin: 4px 3px;
+  border-radius: 60%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+       /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      width: 100%;
+      font-size: 20px;
+      font: Geotica Four Open;
+        margin-bottom: 0;
+      border-radius: 0;
+      background-color: #909090;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      font-size: 20px;
+      font: Geotica Four Open;
+      background-color: #909090 ;
+      padding: 25px;
+    }
+     .navbar-nav a{
+  color: #f1f1f1 !important;
+}
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" >
+      <div class="nav navbar-nav navbar-right" >
+        <li class="active"><a href="1stpage.html">Home</a></li>
+        <li><a href="newvid.html">Videos</a></li>
+        <li><a href="servicepage.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+     
+      <li>
+    <form class="navbar-form navbar-center" role="search">
+    <div class="form-group">
+        <input type="text" class="form-control"  placeholder="Search here">
+    </div>
+    <button type="submit" class="btn btn-default" color="#909090">Submit</button>
+</form>
+</li>
+ </div>
+      <div class="nav navbar-nav navbar-left">
+        <li><img src="logo.jpg" width="100" height="100" class="img-circle"></li>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid text-center">    
+  <div class="row content">
+  <div class="col-sm-2 sidenav">
+    	<p>
+    	      <iframe width="200" height="200" src="https://www.youtube.com/embed/_LSol7zvkGI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    	  </p>
+    
+    	  <p>
+    	  	<iframe width="200" height="200" src="https://www.youtube.com/embed/-GuaADkztuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    	  </p>
+    <p>
+    	<iframe width="200" height="200" src="https://www.youtube.com/embed/GMm9LQeuRNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+    <p>
+    	<iframe width="200" height="200" src="https://www.youtube.com/embed/ZfEVo4MxN50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+    </div>
+
+    
+    <div class="col-sm-8 text-left"> 
+      <iframe width="1600" height="900" src="https://www.youtube.com/embed/LUbqRwp8NXI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     
+    </div>
+    
+</div>
+</div>
+<br><br><br>
+<footer class="container-fluid">
+	<div class="row">
+		<div class="col-sm-4">
+		<h3>Our Services</h3>
+			<li> Social media platform</li>
+			<li> Website development</li>
+			<li> Pay per click</li>
+			<li> Search engine optimization</li>
+	</div>
+
+	<div class="col-sm-4">
+		<h3> Our Project</h3>
+		<li> Project 1</li>
+		<li> Project 2</li>
+		<li> Project 3</li>
+	</div>
+
+<div class="col-sm-4">
+	<h3>Contact Here</h3>
+	<li><i class="fa fa-phone" style="font-size:24px"></i> 9999 8888 </li>
+	<li>abc@xxx.com</li>
+
+</div>
+</div>
+<br><br>
+<div class="container-fluid text-center">
+<p style="text-align:center;">
+Social Media Platform :
+
+</p>
+  <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+
+<a href="#" class="fa fa-instagram"></a>
+</p>
+</div>
+</footer>
+
+</body>
+</html>

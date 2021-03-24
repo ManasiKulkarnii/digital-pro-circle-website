@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+  .fa {
+   padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align:center;
+  text-decoration: none;
+  margin: 4px 3px;
+  border-radius: 60%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      
+      font-size: 20px;
+      font: Geotica Four Open;
+        margin-bottom: 0;
+      border-radius: 0;
+      background-color: #909090;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      font-size: 20px;
+      font: Geotica Four Open;
+      background-color: #909090 ;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      
+      margin: auto;
+      min-height:60px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 400px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #003365;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6AA4C8;
+}
+
+.container {
+  width: 500px;
+  border-radius: 5px;
+  background-color: #d5d5d5;
+  padding: 20px;
+}
+ .navbar-nav a{
+  color: #f1f1f1 !important;
+}
+</style>
+</head>
+<body background="contact.jpg">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" >
+      <div class="nav navbar-nav navbar-right" >
+        <li class="active"><a href="1stpage.html">Home</a></li>
+        <li><a href="newvid.html">Videos</a></li>
+        <li><a href="servicepage.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+     
+      <li>
+    <form class="navbar-form navbar-center" role="search">
+    <div class="form-group">
+        <input type="text" class="form-control"  placeholder="Search here">
+    </div>
+    <button type="submit" class="btn btn-default" color="#909090">Submit</button>
+</form>
+</li>
+ </div>
+      <div class="nav navbar-nav navbar-left">
+        <li><img src="logo.jpg" width="100" height="100" class="img-circle"></li>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+  <h3>Contact Form</h3>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+  <br><br>
+
+</div>
+<br><br>
+  <div class="mapouter"><div class="gmap_canvas"><iframe width="1000" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20portsmouth&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net">crocothemes.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1000px;}.gmap_canvas {overflow:hidden;background:none!important; align-items: right; height:500px;width:1300px;}</style></div>
+<footer class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+    <h3>Our Services</h3>
+      <li> Social media platform</li>
+      <li> Website development</li>
+      <li> Pay per click</li>
+      <li> Search engine optimization</li>
+  </div>
+
+  <div class="col-sm-4">
+    <h3> Our Project</h3>
+    <li> Project 1</li>
+    <li> Project 2</li>
+    <li> Project 3</li>
+  </div>
+
+<div class="col-sm-4">
+  <h3>Contact Here</h3>
+  <li><i class="fa fa-phone" style="font-size:24px"></i> 9999 8888 </li>
+  <li>abc@xxx.com</li>
+
+</div>
+</div>
+<br><br>
+<div class="container-fluid text-center">
+<p style="text-align:center;">
+Social Media Platform :
+
+</p>
+  <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+
+<a href="#" class="fa fa-instagram"></a>
+</p>
+</div>
+</footer>
+</body>
+</html>
